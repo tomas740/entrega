@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+  <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+  <meta name="author" content="FREEHTML5.CO" />
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/superfish.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- FOR IE9 below -->
+  <!--[if lt IE 9]>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Estilos para el menú horizontal -->
+ <style>
+  /* 👉 Menú horizontal */
+  #fh5co-primary-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+  }
+
+  #fh5co-primary-menu li {
+    display: inline-block;
+  }
+
+  #fh5co-primary-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    display: block;
+  }
+
+  #fh5co-primary-menu li a:hover {
+    background-color: #ffb400;
+    color: black;
+    border-radius: 5px;
+  }
+
+  /* 🔒 Desactiva submenús si los hay */
+  .fh5co-sub-menu {
+    display: none !important;
+  }
+
+  /* 📏 Espacio entre módulos y filas */
+  .program.animate-box {
+    margin-bottom: 40px;
+  }
+
+  .row + .row {
+    margin-top: 60px;
+  }
+
+  .row.align-items-center {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .team-section-grid {
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 768px) {
+    /* Hero - que la imagen cubra bien todo el alto */
+    .fh5co-cover {
+      padding-bottom: 0 !important;
+    }
+
+    .fh5co-cover img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* EL NÚCLEO DEL ESTILO - más espacio entre íconos */
+    .tarjeta-skate {
+      margin-bottom: 30px;
+    }
+
+    /* TRES DISEÑOS - imágenes en columna */
+    .team-section-grid {
+      width: 100% !important;
+      min-width: auto !important;
+      height: 400px;
+      margin-bottom: 25px;
+    }
+
+    /* Flechas del carrusel ocultas en móviles */
+    .container img[alt*="Flecha"] {
+      display: none;
+    }
+
+    /* Contenedor carrusel en columna */
+    .container > div[style*="display: flex"][style*="justify-content: center"] {
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+  }
+</style>
+</head>
+
+
+  <body>
+  <div id="fh5co-wrapper">
+    <div id="fh5co-page">
+      <div id="fh5co-header">
+        <header id="fh5co-header-section">
+          <div class="container">
+            <div class="nav-header">
+              <nav id="fh5co-menu-wrap" role="navigation">
+                <ul class="sf-menu" id="fh5co-primary-menu">
+                  <li class="active"><a href="#" onclick="event.preventDefault()">Inicio</a></li>
+                  <li><a href="#" onclick="event.preventDefault()">Datos Técnicos</a></li>
+                  <li><a href="#" onclick="event.preventDefault()">Hecha para destacar</a></li>
+                  <li><a href="#" onclick="event.preventDefault()">El Secreto</a></li>
+                  <li><a href="#" onclick="event.preventDefault()">Diseños</a></li>
+                  <li><a href="#" onclick="event.preventDefault()">Premium</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <!-- Aquí sigue el resto de tu contenido -->
+
+      <!-- Hero -->
+<div class="fh5co-hero" style="min-height: 100vh;">
+  <div class="fh5co-overlay"></div>
+
+  <div class="fh5co-cover" data-stellar-background-ratio="0.5"
+       style="background-image: url(images/uwu4.jpg); width: 100%; padding-top: 10px; padding-bottom: 80px;">
+    
+    <div class="desc animate-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+              <div style="flex: 1;">
+                <h2 style="font-size: 65px; line-height: 1.5; color: #ffffff; margin: 0 0 20px 0;">
+                  El diseño se mueve: <br>
+                  <b><span id="skate-style" style="color: #FFB400; font-size: 65px; display: inline-block;">Skate S/P</span></b>
+                </h2>
+              </div>
+              <div style="flex-shrink: 0;">
+              </div>
+            </div>
+
+            <p style="font-size: 22px; color: #FFB400;"></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+      <!-- Resto de tu contenido continúa igual -->
+
+    </div>
+  </div>
+</body>
+
+
+<!-- end:fh5co-hero -->
+
+
+
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="heading-section text-center animate-box">
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bloque imagen + texto -->
+    <div class="row align-items-center">
+      <!-- Imagen -->
+      <div class="col-md-6 col-sm-12">
+        <div class="team-section-grid animate-box"
+          style="background-image: url(images/remplazo%203.png); height: 450px; background-size: cover; background-position: center; border-radius: 8px;">
+        </div>
+      </div>
+
+      <!-- Texto al costado -->
+      <div class="col-md-6 col-sm-12 animate-box">
+        <div class="desc-ruleman">
+          <h1 style="font-size: 65px; font-family: 'Roboto', sans-serif; font-weight: normal; line-height: 1.2; color: #ffb400;">
+            Diseño en movimiento
+          </h1>
+          <p style="font-size: 18px; font-family: 'Roboto', sans-serif; font-weight: normal; line-height: 1.6; color: white;">
+            Fabricada con 7 capas de arce, esta tabla combina resistencia y flexibilidad para soportar los impactos del street y el park.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+  <!-- Estilos para controlar tamaños -->
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" style="padding-top: px;">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="heading-section text-center animate-box">
+          <h2 style="font-size: 65px; font-family: 'Roboto', sans-serif; font-weight: normal;">
+            El núcleo del estilo
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Tarjeta 1 -->
+      <div class="col-md-4 col-sm-6 text-center">
+        <div class="tarjeta-skate animate-box">
+          <img src="images/medidas.png" alt="Tamaño de la tabla" class="icono-skate">
+          <button class="boton-skate">
+            <h3 style="font-size: 28px; font-family: 'Roboto', sans-serif; font-weight: normal;">
+              Tamaño de la tabla
+            </h3>
+            <p style="font-size: 15px; font-family: 'Roboto', sans-serif; font-weight: normal;">
+              Medidas estándar que ofrecen una buena estabilidad y maniobrabilidad.
+            </p>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="col-md-4 col-sm-6 text-center">
+        <div class="tarjeta-skate animate-box">
+          <img src="images/tabla3.png" alt="Material" class="icono-skate">
+          <button class="boton-skate">
+            <h3 style="font-size: 28px; font-family: 'Roboto', sans-serif; font-weight: normal;">
+              Material
+            </h3>
+            <p style="font-size: 15px; font-family: 'Roboto', sans-serif; font-weight: normal;">
+              7 capas de arce prensado, madera resistente y flexible que absorbe impactos.
+            </p>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="col-md-4 col-sm-6 text-center">
+        <div class="tarjeta-skate animate-box">
+          <img src="images/rueda.png" alt="Ruedas" class="icono-skate">
+          <button class="boton-skate">
+            <h3 style="font-size: 28px; font-family: 'Roboto', sans-serif; font-weight: normal;">
+              Ruedas
+            </h3>
+            <p style="font-size: 15px; font-family: 'Roboto', sans-serif; font-weight: normal;">
+              Tamaño y dureza perfectos para andar en la calle o en skateparks.
+            </p>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+
+
+
+<!-- Estilos para cont
+
+
+						
+<!-- PARALLAX MÁS PETISA -->
+<!-- PARALLAX MÁS PETISA -->
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="fh5co-parallax" style="
+    background-image: url(images/sape.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    margin-top: 80px;
+  ">
+
+    <!-- Capa de superposición -->
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+
+    <div class="container" style="height: 100%;">
+      <div class="row" style="height: 100%;">
+        <div class="col-md-12" style="
+          display: flex;
+          align-items: center;
+          height: 100%;
+        ">
+          <div class="animate-box" style="
+            margin-left: 50px;
+            text-align: left;
+          ">
+            <h1 style="
+              font-size: 70px;
+              color: white;
+              font-family: 'Roboto', sans-serif;
+              font-weight: normal;
+              line-height: 1.1;
+            ">
+              Hecha<br>
+              para destacar
+            </h1>
+
+            <p style="
+              font-size: 2.5rem;
+              color: white;
+              font-family: 'Roboto', sans-serif;
+              font-weight: normal;
+            ">
+              <!-- Texto opcional -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+  
+<!-- Encabezado -->
+<!-- Título de sección -->
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container container-con-margen-superior">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="heading-section text-center animate-box">
+<h2 class="section-title" style="font-family: 'Roboto', sans-serif; font-weight: normal; font-size: clamp(32px, 5vw, 65px); white-space: nowrap;">
+  El corazón del movimiento
+</h2>
+           
+          <p class="section-subtitle" style="font-family: 'Roboto', sans-serif; font-weight: normal; color: white; white-space: nowrap;">
+  Los rulemanes permiten que las ruedas giren con precisión, reduciendo la fricción.
+</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bloque texto + imagen -->
+    <div class="row align-items-center">
+      <!-- Texto al costado -->
+      <div class="col-md-6 col-sm-12 animate-box">
+        <div class="desc-ruleman">
+
+          <div class="titulo-con-icono">
+            <img src="images/uno.png" alt="1" class="icono-contador" />
+            <h1 class="titulo-ruleman" style="font-family: 'Roboto', sans-serif; font-weight: normal;">Anillo exterior</h1>
+          </div>
+
+          <div class="titulo-con-icono">
+            <img src="images/dos.png" alt="2" class="icono-contador" />
+            <h1 class="titulo-ruleman" style="font-family: 'Roboto', sans-serif; font-weight: normal;">Anillo interior</h1>
+          </div>
+
+          <div class="titulo-con-icono">
+            <img src="images/tres.png" alt="3" class="icono-contador" />
+            <h1 class="titulo-ruleman" style="font-family: 'Roboto', sans-serif; font-weight: normal;">Bolas</h1>
+          </div>
+
+          <div class="titulo-con-icono">
+            <img src="images/cuatro.png" alt="4" class="icono-contador" />
+            <h1 class="titulo-ruleman" style="font-family: 'Roboto', sans-serif; font-weight: normal;">Jaula</h1>
+          </div>
+
+          <div class="titulo-con-icono">
+            <img src="images/cinco.png" alt="5" class="icono-contador" />
+            <h1 class="titulo-ruleman" style="font-family: 'Roboto', sans-serif; font-weight: normal;">Tapa</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen -->
+      <div class="col-md-6 col-sm-12">
+        <div class="team-section-grid animate-box"
+          style="background-image: url('images/remplazo.png'); height: 350px; background-size: cover; background-position: center; border-radius: 8px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    /* Controles generales de margen horizontal para todo el bloque */
+    .container {
+      max-width: 1140px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin: 0 auto;
+    }
+
+    .container-con-margen-superior {
+      margin-top: 100px;
+    }
+
+    .titulo-con-icono {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .icono-contador {
+      width: 36px;
+      height: auto;
+      margin-right: 12px;
+    }
+
+    .titulo-ruleman {
+      font-size: 48px;
+      margin: 0;
+      color: #FFB400;
+    }
+
+    .texto-ruleman {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #ddd;
+      margin-bottom: 25px;
+    }
+
+    .desc-ruleman {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .titulo-ruleman {
+        font-size: 65px;
+      }
+
+      .texto-ruleman {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      .desc-ruleman {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .icono-contador {
+        width: 24px;
+        margin-right: 10px;
+      }
+    }
+  </style>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Segundo módulo -->
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" style="padding-top: 0;">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="heading-section text-center animate-box" style="margin: 0; padding: 0;">
+         <h2 style="margin: 0 0 25px 0; padding: 0; font-size: 65px; font-family: 'Roboto', sans-serif; color: #ffb400; text-transform: none; font-weight: normal; white-space: nowrap;">
+  Tres diseños una actitud
+</h2>
+
+          <p style="font-size: 2rem; color: white; font-family: 'Roboto', sans-serif; font-weight: normal; white-space: nowrap;">
+            Porque no todos patinan igual, creamos tres estilos únicos que hablan tu mismo idioma.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARRUSEL centrado -->
+    <div style="position: relative; margin-top: 20px; display: flex; justify-content: center; align-items: center;">
+      
+      <!-- Flecha izquierda -->
+      <img src="images/derecha.png" alt="Flecha izquierda"
+           style="transform: rotate(180deg); cursor: pointer; width: 40px; margin-right: 20px;">
+
+      <!-- Contenedor de diseños centrado -->
+      <div style="display: flex; justify-content: center; gap: 20px;">
+        <!-- Diseño 1 -->
+        <div class="team-section-grid animate-box"
+             style="min-width: 300px; background-image: url(images/sape2.png); background-size: cover; background-position: center; height: 400px;">
+          <div class="overlay-section">
+            <div class="desc" style="text-align: center; display: flex; justify-content: center; align-items: end; height: 100%; padding-bottom: 15px;">
+              <h3 style="color: #ffb400; margin: 0; font-family: 'Roboto', sans-serif; font-weight: normal;">Nyjah Huston</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Diseño 2 -->
+        <div class="team-section-grid animate-box"
+             style="min-width: 300px; background-image: url(images/sakate.png); background-size: cover; background-position: center; height: 400px;">
+          <div class="overlay-section">
+            <div class="desc" style="text-align: center; display: flex; justify-content: center; align-items: end; height: 100%; padding-bottom: 15px;">
+              <h3 style="color: #ffb400; margin: 0; font-family: 'Roboto', sans-serif; font-weight: normal;">tony hawk</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Diseño 3 -->
+        <div class="team-section-grid animate-box"
+             style="min-width: 300px; background-image: url(images/picture.png); background-size: cover; background-position: center; height: 400px;">
+          <div class="overlay-section">
+            <div class="desc">
+              <h3 style="color: #ffb400; font-family: 'Roboto', sans-serif; font-weight: normal;">Rodney Mullen</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flecha derecha -->
+      <img src="images/derecha.png" alt="Flecha derecha"
+           style="cursor: pointer; width: 40px; margin-left: 20px;">
+    </div>
+  </div>
+</body>
+
+
+
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="fh5co-parallax" style="
+    background-image: url(images/home-image-3.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    margin-top: 80px;
+  ">
+
+    <!-- Capa de superposición -->
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4);"></div>
+
+    <div class="container" style="height: 100%; position: relative; z-index: 2;">
+      <div class="row" style="height: 100%;">
+        <div class="col-md-12" style="
+          display: flex;
+          align-items: center;
+          height: 100%;
+        ">
+          <div class="animate-box" style="
+            margin-left: 50px;
+            text-align: left;
+          ">
+            <h1 style="font-size: 70px; color: white; font-family: 'Roboto', sans-serif;">
+              No seguimos<br>
+              caminos, los rompemos.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+<!-- end: fh5co-parallax -->
+<head>
+  <!-- Agregar el link a Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <footer>
+    <div id="footer" style="background-color: #4C4C4C; padding: 60px 0; color: #fff; font-family: 'Roboto', sans-serif; font-weight: normal;">
+      <div class="container">
+        <div class="row">
+          <!-- Columna: Objetivo de la marca -->
+          <div class="col-md-6 animate-box" style="text-align: left;">
+            <h3 class="section-title" style="font-family: 'Roboto', sans-serif; font-weight: normal;">Nuestro Objetivo</h3>
+            <p style="font-family: 'Roboto', sans-serif; font-weight: normal;">
+              Impulsar la cultura del skate en cada rincón, ofreciendo productos de calidad que acompañen a los riders en cada truco, caída y logro. Creemos en la actitud, la libertad y el estilo propio.
+            </p>
+          </div>
+
+          <!-- Columna: Dirección -->
+          <div class="col-md-6 animate-box" style="text-align: left;">
+            <h3 class="section-title" style="font-family: 'Roboto', sans-serif; font-weight: normal;">Dirección</h3>
+            <ul class="contact-info" style="font-family: 'Roboto', sans-serif; font-weight: normal;">
+              <li><i class="icon-map-marker"></i> Tinogasta 5276 Devoto, CABA Argentina</li>
+              <li><i class="icon-phone"></i> +1235 2355 98</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Derechos de autor -->
+        <div class="row copy-right" style="margin-top: 30px;">
+          <div class="col-md-12" style="text-align: center; font-family: 'Roboto', sans-serif; font-weight: normal;">
+            <p>Copyright <a href="#" style="font-family: 'Roboto', sans-serif; font-weight: normal;">Rodriguez Tomas</a>. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Resto de scripts y cierre de body y html -->
+  <script>
+    function mover(direccion) {
+      const carrusel = document.getElementById('carrusel');
+      const ancho = carrusel.offsetWidth;
+      carrusel.scrollBy({ left: direccion * (ancho * 0.8), behavior: 'smooth' });
+    }
+  </script>
+
+  <script src="js/jquery.min.js"></script>
+  <!-- jQuery Easing -->
+  <script src="js/jquery.easing.1.3.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Waypoints -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <!-- Stellar -->
+  <script src="js/jquery.stellar.min.js"></script>
+  <!-- Superfish -->
+  <script src="js/hoverIntent.js"></script>
+  <script src="js/superfish.js"></script>
+  <!-- Main JS (Do not remove) -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
